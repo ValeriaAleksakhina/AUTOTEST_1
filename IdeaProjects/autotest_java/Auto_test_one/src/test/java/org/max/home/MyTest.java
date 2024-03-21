@@ -9,6 +9,7 @@ import java.util.List;
 public class MyTest {
 
 
+    //у Вас переменная doors не проинициализирована, все тесты падают с ошибкой Cannot invoke "java.util.List.get(int)" because "this.doors" is null
     static List<Door> doors;
     @Test
     @DisplayName(" Тест номер один")
